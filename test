@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--logoOnTaskBar-->
+    <link rel="icon" href="assets/media/dumpling.png">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <!--navigation-->
+        <nav>
+            <!--logo-->
+            <img id="logo" src="assets/media/dumpling.png" alt="--logo--">
+            <ul>
+                <li> <a href="#" class="active"> Home </a> </li>
+                <li> <a href="#" > About </a> </li>
+                <li> <a href="#" > Contact </a> </li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <div class="left">
+                <h1>Dumpling</h1>
+                <h3>Chicken, pork & veggie options </h3>
+                <p> <span id="yellow"> American </span> dumplings may be of the filled pastry type (which are usually baked), or they may be little pieces of dough added to a savoury or sweet dish, in which case they are usually boiled.</p>
+                <div class="btn"> 
+                    <button type="button">Contact us</button>
+                </div>
+            </div>
+            <div class="right"> 
+                <img src="assets/media/dumpling.png" alt="banner">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
